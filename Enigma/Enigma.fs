@@ -144,9 +144,9 @@ module Rotor =
 
 module Enigma =
 
-    let fst3 (a,b,c) = a
-    let snd3 (a,b,c) = b
-    let trd3 (a,b,c) = c
+    let private fst3 (a,b,c) = a
+    let private snd3 (a,b,c) = b
+    let private trd3 (a,b,c) = c
 
     ///because the rotor range is 1 to 26 all other numbers have to be converted |  0->26  1->1  2->2 ... 26->0->26  27->1  28->2
     let private norm i = 
@@ -206,7 +206,7 @@ module Enigma =
             
             countCounter counter sndRotor.Ring trdRotor.Ring
             char
-            |> Converter.charToIntEnigma
+            |> Converter.charToIntEnigma                                //Ring settings changes input here  //and output here 
             |> fun x -> norm ((convertCharInRotor trdRotor.Forward trd3 (norm (x - trd3 ringSt + 1 + 26))) + trd3 ringSt - 1 + 26)              
             |> fun x -> norm ((convertCharInRotor sndRotor.Forward snd3 (norm (x - snd3 ringSt + 1 + 26))) + snd3 ringSt - 1 + 26)              
             |> fun x -> norm ((convertCharInRotor fstRotor.Forward fst3 (norm (x - fst3 ringSt + 1 + 26))) + fst3 ringSt - 1 + 26)              
@@ -241,7 +241,7 @@ module Enigma =
         
         ///Encrypts a string with [' ';'.';',';'?';'-';'!' and numbers] with default parameters ('A','A','A') Rotor.I Rotor.II Rotor.III Rotor.UKW_B [||] (1,1,1)
         let encrypt_default text = 
-            encrypt ('A','A','A') Rotor.UKW_B Rotor.I Rotor.II Rotor.III [||]  text
+            encrypt ('A','A','A') Rotor.UKW_B Rotor.I Rotor.II Rotor.III [||] (1,1,1) text
         
         ///Decrypts a string recovering [' ';'.';',';'?';'-';'!' and numbers].
         let decrypt rotorPositions ukw fstRotor sndRotor trdRotor  stecker ringSt string =

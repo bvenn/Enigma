@@ -1,0 +1,48 @@
+﻿Zur Beachtung!
+Beachte die Gebrauchsanleitung für die Chiffriermaschine (H. Dv. g. 13).
+8. Schlüsselangaben erfolgen entweder durch Zahlen oder Buchstaben. Zum Umsetzen der zahlen in Bichstaben oder umgekehrt dient nachstende Tafel.
+ A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z
+ 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26
+
+ch = q
+
+
+Auf der Walze sind tatsächlich keine Buchstaben angebracht. Die Grundstellung der Walze ist durch das kleine schwarze Fenster dargestellt. 
+Das kleine schwarze Rechteck symbolisiert den Sperrstift für den äußeren Ring und zeigt somit die Ringstellung an.  Das Beispiel zeigt, wie Walze I 
+(mit Ringstellung A-­‐01) in der Abfolge zwei Buchstaben verschlüsselt. Links ist die Walze in Grundstellung A . Das Signal, das von der gedrückten 
+Taste A kommt, erreicht die Walze hier in der A-­‐Position,  tritt am A-­‐Kontakt ein und verlässt die Walze am E-­‐Kontakt an der E-­‐Position. Rechts 
+hat sich der Rotor in die B-­‐Position weitergedreht. Wieder erreicht das Signal der gedrückten Taste A die A-­‐Position, tritt dort aber in den 
+B-­‐Kontakt der (gedrehten) Walze ein und tritt an Kontakt K wieder aus. Da die Walze aber gegenüber dem linken Beispiel insgesamt um eine Position 
+weitergedreht ist, wird der K-­‐Kontakt auf der Ausgangsseite an der Position J zur nächsten Walze abgeführt. Die Ringstellung wird auf den Walzen 
+durch den Sperrstift (Wehrmacht) oder einen roten Punkt (Kriegsmarine) markiert. Diese Markierung identifiziert die Position des ersten Kontakts 
+(A oder 01) des Walzenkerns. Ringstellung F oder 06 bedeutet also, dass der auf dem äußeren Ring aufgeprägte Buchstabe F an der Position A des 
+Walzenkerns liegt. Die Veränderung der Ringstellung um eine Position verschiebt die Verschlüsselung um eine Position. Da die Aussparung fest mit 
+dem äußeren Ring verbunden ist,  ist die Schaltposition jedoch immer noch beim gleichen Buchstaben verblieben. Die Ringstellung darf nicht mit der 
+Grundstellung  verwechselt werden.
+
+'A'
+'B'
+'C'
+'D'
+'E'
+'F'
+'G'
+'H'
+'I'
+'J'
+'K'
+'L'
+'M'
+'N'
+'O'
+'P'
+'Q'
+'R'
+'S'
+'T'
+'U'
+'V'
+'W'
+'X'
+'Y'
+'Z'
